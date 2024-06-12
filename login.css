@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Jost", sans-serif;
+  background: url(/assets/lambcar.webp) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login {
+  width: 350px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login label {
+  color: #fff;
+  font-size: 2.3em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.login input {
+  width: 80%;
+  height: 40px;
+  background: #e0dede;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.login button {
+  width: 80%;
+  height: 40px;
+  margin: 20px auto;
+  color: #fff;
+  background: #573b8a;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.2s ease-in;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background: #6d44b8;
+}
+
+@media (max-width: 576px) {
+  .login {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .login label {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+
+  .login input,
+  .login button {
+    width: 90%;
+  }
+}

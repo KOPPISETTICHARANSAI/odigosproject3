@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.container {
+  margin-top: 50px;
+}
+header {
+  background: url("/assets/maincarimg.avif") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  height: 300px;
+}
+#browse:hover {
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+}
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+legend {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.contact {
+  text-align: center;
+}
+.list-inline-item {
+  padding-right: 20px;
+}
+@media (max-width: 576px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  fieldset {
+    padding: 10px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    font-size: 0.9em;
+  }
+  .form-group input {
+    font-size: 0.9em;
+  }
+  legend {
+    font-size: 1em;
+  }
+  h1.contact {
+    font-size: 1.5em;
+  }
+  button {
+    padding: 60px;
+    margin: 20px;
+    width: 200px;
+  }
+  footer .container {
+    padding: 0 15px;
+  }
+  footer .row > div {
+    margin-bottom: 20px;
+  }
+  footer h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  footer p,
+  footer ul {
+    font-size: 14px;
+  }
+  footer ul {
+    padding-left: 0;
+  }
+  footer ul li {
+    padding: 5px 0;
+  }
+  footer .list-inline {
+    text-align: center;
+    padding-top: 10px;
+  }
+  footer .list-inline-item {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  footer .text-md-right {
+    text-align: center !important;
+    margin-top: 20px;
+  }
+}

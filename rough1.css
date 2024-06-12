@@ -1,0 +1,38 @@
+.car-visual-stories {
+  margin: 20px;
+}
+
+.nav-tabs .nav-link.active {
+  border-color: #007bff;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card .slide img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.view-all-link {
+  text-align: right;
+  margin-top: 10px;
+}
+.car-visual-stories {
+  margin: 20px;
+}
+.nav-tabs .nav-link.active {
+  border-color: #007bff;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.view-all-link {
+  text-align: right;
+  margin-top: 10px;
+}

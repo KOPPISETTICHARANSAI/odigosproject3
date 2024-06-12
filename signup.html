@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="cricket app/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <style>
+        body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background:url(/assets/carimg3.avif) no-repeat;
+    background-size: cover ;
+    
+}
+.main{
+	width: 350px;
+	height: 500px;
+	background: red;
+	overflow: hidden;
+	background: url() no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 40px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #6d44b8;
+}
+.login{
+	height: 400px;
+	background: #672e2e;
+	transform: translateY(40px);
+	transition: .8s ease-in-out;
+	width: 300px;
+}
+
+    </style>
+        <div class="main">  	
+            <input type="checkbox" id="chk" aria-hidden="true">
+                <div class="signup">
+                    <form  onsubmit="return validate()"action="login.html">
+                        <label for="chk" aria-hidden="true">Sign up</label>
+                        <input type="text" name="txt"id="uname1" placeholder="User name" required="">
+                        <input type="email" name="email" id="email1" placeholder="Email" required="">
+                        <input type="password" name="pswd"id ="passwrd1" placeholder="Password" required="">
+                        <button onclick="validate1()">Sign up</button>
+                    </form>
+                </div>
+                <script type="text/javascript">
+                    function validate1(){
+                        var username = document.getElementById("uname1");
+                        var username = document.getElementById("passwrd1");
+                        var username =document.getElementById("email1");
+                        if(username.value.trim() ==""|| password.value.trim() ==""||email.value.trim()==""){
+                            alert("NO blank values are allowed");
+                            return false;
+                        }
+                        else{
+                             true;
+                        }
+                    }
+                </script>
+    </body>
+    </html>
+  

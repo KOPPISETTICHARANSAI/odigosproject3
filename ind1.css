@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+h1 {
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+p,
+ul {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+address {
+  font-style: normal;
+}
+.main {
+  background-color: #87ceeb;
+  color: #492813;
+}
+.mat {
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+  color: #f4f4f4;
+}
+marquee {
+  color: brown;
+  font-size: 20px;
+}

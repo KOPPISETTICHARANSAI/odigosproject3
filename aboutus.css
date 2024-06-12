@@ -1,0 +1,167 @@
+body {
+  background-color: #f8f9fa;
+}
+
+header {
+  background: url("/assets/maincarimg.avif") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  width: 50%;
+  margin-top: 15px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  border-radius: 50%;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+  font-size: 12px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+footer {
+  margin-top: 40px;
+}
+
+footer h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer p,
+footer ul {
+  font-size: 14px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  padding: 5px 0;
+}
+
+footer .list-inline-item {
+  display: inline-block;
+  margin: 0 5px;
+}
+.card-text {
+  text-align: justify;
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+}
+.list-inline-item {
+  padding-right: 20px;
+}
+.list-inline-item:hover {
+  background-color: aqua;
+}
+.btn:hover {
+  background-color: green;
+}
