@@ -1,5 +1,5 @@
 header {
-  background: url("/assets/maincarimg.avif") no-repeat center center;
+  background: url("assets/maincarimg.avif") no-repeat center center;
   background-size: cover;
   color: #fff;
   height: 300px;
